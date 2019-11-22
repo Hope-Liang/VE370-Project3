@@ -56,9 +56,9 @@ begin
         //here check main memory content, 
         //the first byte should be 0xff
        $display("0x%h",  mainmem1.mem[0]);
-    /*$display("Complete memory result, shown by 4 words per line");
-    for (i=0; i < 64; i=i+1) begin
-        $display("0x%h",  mainmem1.mem[i]);
-    end*/
+       /*$display("Complete memory result, shown by 4 words per line");
+       for (i=0; i < 64; i=i+1) begin
+           $display("0x%h",  mainmem1.mem[i]);
+       end*/
 end
 endmodule
